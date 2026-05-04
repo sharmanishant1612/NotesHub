@@ -1,0 +1,26 @@
+@keyframes infinite-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: infinite-scroll 20s linear infinite;
+}
+
+@keyframes testimonial-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-12px) rotate(4deg);
+  }
+}
+
+.testimonial-float-img {
+  animation: testimonial-float 3s ease-in-out infinite;
+}
