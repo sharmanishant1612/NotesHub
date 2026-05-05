@@ -36,7 +36,7 @@ export default function SignupPage() {
     setLoading(true);
 
     await axios
-      .post("http://localhost:3000/api/user/signup", formData)
+      .post("https://noteshub-hbf2.onrender.com/api/user/signup", formData)
       .then((response) => {
         console.log(response.data.message);
         navigate("/login");

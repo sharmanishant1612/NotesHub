@@ -22,7 +22,7 @@ export default function LoginPage() {
     setmessage("");
 
     await axios
-      .post("http://localhost:3000/api/user/login", { email, password })
+      .post("https://noteshub-hbf2.onrender.com/api/user/login", { email, password })
       .then((response) => {
         const user = response.data.user;
         const token = response.data.token;

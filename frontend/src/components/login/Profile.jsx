@@ -49,7 +49,7 @@ export default function Profile() {
     reader.onloadend = async () => {
       await axios
         .put(
-          "http://localhost:3000/api/user/profile-image",
+          "https://noteshub-hbf2.onrender.com/api/user/profile-image",
           { profileImage: reader.result },
           {
             headers: {
