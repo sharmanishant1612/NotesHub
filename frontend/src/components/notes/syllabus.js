@@ -1,3 +1,4 @@
+// import notes from "./public/NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit1.pdf"
 export const syllabus = [
     {
         course: 'B.Tech',
