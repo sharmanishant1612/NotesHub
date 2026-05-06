@@ -110,7 +110,7 @@ function notes() {
                                                     <FaRegHeart className='dark:text-white font-semibold' />
                                                 </div>
                                                 <div className='rounded-full bg-green-700 flex justify-between gap-2 px-3 py-2'>
-                                                    <a href={unit.url} target='blank' rel="noopener noreferrer">
+                                                    <a href={unit.notes} target='blank' rel="noopener noreferrer">
                                                         {/* <MdOutlineFileDownload className='text-green-200 text-xl' /> */}
                                                         <p className='text-sm text-green-200 font-semibold'>Download</p>
                                                     </a>

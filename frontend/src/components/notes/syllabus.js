@@ -1,4 +1,4 @@
-// import notes from "./public/NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit1.pdf"
+import notes from "../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit1.pdf";
 export const syllabus = [
     {
         course: 'B.Tech',
@@ -10,51 +10,51 @@ export const syllabus = [
                     {
                         name: 'Engineering Mathematics-I',
                         units: [
-                            { number: 1, title: 'Differential Calculus' },
-                            { number: 2, title: 'Integral Calculus' },
-                            { number: 3, title: 'Vector Calculus' },
-                            { number: 4, title: 'Matrices' },
-                            { number: 5, title: 'Sequences and Series' }
+                            { number: 1, title: 'Differential Calculus', notes: '../../../public/NotesPdf/B.TECH1stSem/Maths1/Maths1Unit1.pdf' },
+                            { number: 2, title: 'Integral Calculus', notes: '../../../public/NotesPdf/B.TECH1stSem/Maths1/Maths1Unit2.pdf' },
+                            { number: 3, title: 'Vector Calculus', notes: '../../../public/NotesPdf/B.TECH1stSem/Maths1/Maths1Unit3.pdf' },
+                            { number: 4, title: 'Matrices', notes: '../../../public/NotesPdf/B.TECH1stSem/Maths1/Maths1Unit4.pdf' },
+                            { number: 5, title: 'Sequences and Series', notes: '../../../public/NotesPdf/B.TECH1stSem/Maths1/Maths1Unit5.pdf' }
                         ]
                     },
                     {
                         name: 'Engineering Physics',
                         units: [
-                            { number: 1, title: 'Wave Optics' },
-                            { number: 2, title: 'Quantum Mechanics' },
-                            { number: 3, title: 'Laser and Fiber Optics' },
-                            { number: 4, title: 'Electromagnetism' },
-                            { number: 5, title: 'Modern Physics' }
+                            { number: 1, title: 'Wave Optics', notes: '../../../public/NotesPdf/B.TECH1stSem/EngineeringPhysic/EngineeringPhysicUnit1.pdf' },
+                            { number: 2, title: 'Quantum Mechanics', notes: '../../../public/NotesPdf/B.TECH1stSem/EngineeringPhysic/EngineeringPhysicUnit2.pdf' },
+                            { number: 3, title: 'Laser and Fiber Optics', notes: '../../../public/NotesPdf/B.TECH1stSem/EngineeringPhysic/EngineeringPhysicUnit3.pdf' },
+                            { number: 4, title: 'Electromagnetism', notes: '../../../public/NotesPdf/B.TECH1stSem/EngineeringPhysic/EngineeringPhysicUnit4.pdf' },
+                            { number: 5, title: 'Modern Physics', notes: '../../../public/NotesPdf/B.TECH1stSem/EngineeringPhysic/EngineeringPhysicUnit5.pdf' }
                         ]
                     },
                     {
                         name: 'Fundamentals of Electrical Engineering',
                         units: [
-                            { number: 1, title: 'DC Circuits' },
-                            { number: 2, title: 'AC Circuits' },
-                            { number: 3, title: 'Electrical Machines' },
-                            { number: 4, title: 'Transformers' },
-                            { number: 5, title: 'Measurements and Instruments' }
+                            { number: 1, title: 'DC Circuits', notes: '../../../public/NotesPdf/B.TECH1stSem/FundamentalsOfElectricalEngineering/ElectricalEngineeringUnit1.pdf' },
+                            { number: 2, title: 'AC Circuits', notes: '../../../public/NotesPdf/B.TECH1stSem/FundamentalsOfElectricalEngineering/ElectricalEngineeringUnit2.pdf' },
+                            { number: 3, title: 'Electrical Machines', notes: '../../../public/NotesPdf/B.TECH1stSem/FundamentalsOfElectricalEngineering/ElectricalEngineeringUnit3.pdf' },
+                            { number: 4, title: 'Transformers', notes: '../../../public/NotesPdf/B.TECH1stSem/FundamentalsOfElectricalEngineering/ElectricalEngineeringUnit4.pdf' },
+                            { number: 5, title: 'Measurements and Instruments', notes: '../../../public/NotesPdf/B.TECH1stSem/FundamentalsOfElectricalEngineering/ElectricalEngineeringUnit5.pdf' }
                         ]
                     },
                     {
                         name: 'Programming for Problem Solving',
                         units: [
-                            { number: 1, title: 'Introduction to C Programming' },
-                            { number: 2, title: 'Control Statements' },
-                            { number: 3, title: 'Functions and Arrays' },
-                            { number: 4, title: 'Pointers and Strings' },
-                            { number: 5, title: 'Structures and File Handling' }
+                            { number: 1, title: 'Introduction to C Programming', notes: '../../../public/NotesPdf/B.TECH1stSem/PPS/PPSUnit1.pdf' },
+                            { number: 2, title: 'Control Statements', notes: '../../../public/NotesPdf/B.TECH1stSem/PPS/PPSUnit2.pdf' },
+                            { number: 3, title: 'Functions and Arrays', notes: '../../../public/NotesPdf/B.TECH1stSem/PPS/PPSUnit3.pdf' },
+                            { number: 4, title: 'Pointers and Strings', notes: '../../../public/NotesPdf/B.TECH1stSem/PPS/PPSUnit4.pdf' },
+                            { number: 5, title: 'Structures and File Handling', notes: '../../../public/NotesPdf/B.TECH1stSem/PPS/PPSUnit5.pdf' }
                         ]
                     },
                     {
                         name: 'Environment and Ecology',
                         units: [
-                            { number: 1, title: 'Ecosystem' },
-                            { number: 2, title: 'Natural Resources' },
-                            { number: 3, title: 'Biodiversity' },
-                            { number: 4, title: 'Environmental Pollution' },
-                            { number: 5, title: 'Sustainable Development' }
+                            { number: 1, title: 'Ecosystem', notes: '../../../public/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit1.pdf' },
+                            { number: 2, title: 'Natural Resources', notes: '../../../public/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit2.pdf' },
+                            { number: 3, title: 'Biodiversity', notes: '../../../public/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit3.pdf' },
+                            { number: 4, title: 'Environmental Pollution', notes: '../../../public/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit4.pdf' },
+                            { number: 5, title: 'Sustainable Development', notes: '../../../public/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit5.pdf' }
                         ]
                     }
                 ]
@@ -67,51 +67,52 @@ export const syllabus = [
                     {
                         name: 'Engineering Mathematics-II',
                         units: [
-                            { number: 1, title: 'Linear Algebra' },
-                            { number: 2, title: 'Differential Equations' },
-                            { number: 3, title: 'Laplace Transform' },
-                            { number: 4, title: 'Fourier Series' },
-                            { number: 5, title: 'Complex Variables' }
+                            { number: 1, title: 'Linear Algebra', notes: '../../../public/NotesPdf/B.TECH2ndSem/Maths2/Maths2Unit1.pdf' },
+                            { number: 2, title: 'Differential Equations', notes: '../../../public/NotesPdf/B.TECH2ndSem/Maths2/Maths2Unit2.pdf' },
+                            { number: 3, title: 'Laplace Transform', notes: '../../../public/NotesPdf/B.TECH2ndSem/Maths2/Maths2Unit3.pdf' },
+                            { number: 4, title: 'Fourier Series', notes: '../../../public/NotesPdf/B.TECH2ndSem/Maths2/Maths2Unit4.pdf' },
+                            { number: 5, title: 'Complex Variables', notes: '../../../public/NotesPdf/B.TECH2ndSem/Maths2/Maths2Unit5.pdf' }
                         ]
                     },
                     {
                         name: 'Engineering Chemistry',
                         units: [
-                            { number: 1, title: 'Water Treatment' },
-                            { number: 2, title: 'Corrosion' },
-                            { number: 3, title: 'Fuels and Combustion' },
-                            { number: 4, title: 'Polymer Chemistry' },
-                            { number: 5, title: 'Nanomaterials' }
+                            { number: 1, title: 'Water Treatment', notes: '../../../public/NotesPdf/B.TECH2ndSem/EngineeringChemistry/EngineeringChemistryUnit1.pdf' },
+                            { number: 2, title: 'Corrosion', notes: '../../../public/NotesPdf/B.TECH2ndSem/EngineeringChemistry/EngineeringChemistryUnit2.pdf' },
+                            { number: 3, title: 'Fuels and Combustion', notes: '../../../public/NotesPdf/B.TECH2ndSem/EngineeringChemistry/EngineeringChemistryUnit3.pdf' },
+                            { number: 4, title: 'Polymer Chemistry', notes: '../../../public/NotesPdf/B.TECH2ndSem/EngineeringChemistry/EngineeringChemistryUnit4.pdf' },
+                            { number: 5, title: 'Nanomaterials', notes: '../../../public/NotesPdf/B.TECH2ndSem/EngineeringChemistry/EngineeringChemistryUnit5.pdf' }
                         ]
                     },
                     {
                         name: 'Fundamentals of Electronics Engineering',
                         units: [
-                            { number: 1, title: 'Semiconductor Physics' },
-                            { number: 2, title: 'Diodes and Applications' },
-                            { number: 3, title: 'Transistors' },
-                            { number: 4, title: 'Amplifiers' },
-                            { number: 5, title: 'Digital Electronics Basics' }
+                            { number: 1, title: 'Semiconductor Physics', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit1.pdf' },
+                            { number: 2, title: 'Diodes and Applications', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit2.pdf' },
+                            { number: 3, title: 'Transistors', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit3.pdf' },
+                            { number: 4, title: 'Amplifiers', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit4.pdf' },
+                            { number: 5, title: 'Digital Electronics Basics', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit5.pdf' }
                         ]
                     },
                     {
                         name: 'Fundamentals of Mechanical Engineering',
                         units: [
-                            { number: 1, title: 'Thermodynamics' },
-                            { number: 2, title: 'IC Engines' },
-                            { number: 3, title: 'Refrigeration and AC' },
-                            { number: 4, title: 'Manufacturing Processes' },
-                            { number: 5, title: 'Engineering Mechanics' }
+                            { number: 1, title: 'Thermodynamics', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit1.pdf' },
+                            { number: 2, title: 'IC Engines', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit2.pdf' },
+                            { number: 3, title: 'Refrigeration and AC', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit3.pdf' },
+                            { number: 4, title: 'Manufacturing Processes', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit4.pdf' },
+                            { number: 5, title: 'Engineering Mechanics', notes: '../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit5.pdf' }
                         ]
                     },
+                    
                     {
                         name: 'Soft Skills',
                         units: [
-                            { number: 1, title: 'Communication Skills' },
-                            { number: 2, title: 'Professional Ethics' },
-                            { number: 3, title: 'Personality Development' },
-                            { number: 4, title: 'Team Work' },
-                            { number: 5, title: 'Presentation Skills' }
+                            { number: 1, title: 'Communication Skills', notes: '../../../public/NotesPdf/B.TECH2ndSem/SoftSkill/SoftSkillUnit1.pdf' },
+                            { number: 2, title: 'Professional Ethics', notes: '../../../public/NotesPdf/B.TECH2ndSem/SoftSkill/SoftSkillUnit2.pdf' },
+                            { number: 3, title: 'Personality Development', notes: '../../../public/NotesPdf/B.TECH2ndSem/SoftSkill/SoftSkillUnit3.pdf' },
+                            { number: 4, title: 'Team Work', notes: '../../../public/NotesPdf/B.TECH2ndSem/SoftSkill/SoftSkillUnit4.pdf' },
+                            { number: 5, title: 'Presentation Skills', notes: '../../../public/NotesPdf/B.TECH2ndSem/SoftSkill/SoftSkillUnit5.pdf' }
                         ]
                     }
                 ]
@@ -127,27 +128,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Laser Introduction, Energy Levels and Transition',
-                                url: "../../../NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Laser amplifiers and Oscillations',
-                                url: "../../../NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Lser Component, Principle and Types',
-                                url: "../../../NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Specific Laser Systems',
-                                url: "../../../NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Apllications and Hazards and Safety Considerations',
-                                url: "../../../NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/LasersystemPdf/LaserSystemUnit5.pdf'
                             }
                         ]
                     },
@@ -157,27 +158,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Set Theory, Functions and Natural Numbers',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Algebraic Structures',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Lattices',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Propositional Logic and Predicate Logic',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Trees,Graphs and Combinatorics',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DSTLPdf/DSTLUnit5.pdf'
                             }
                         ]
                     },
@@ -187,27 +188,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Fundamental of Technical Communication',
-                                url: "../../../NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Froms of Technical Communication',
-                                url: "../../../NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Technical Presentation: Strategies an Techniques',
-                                url: "../../../NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Technical Communication Skills',
-                                url: "../../../NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Dimensions of Oral Communication & Voice Dynamics',
-                                url: "../../../NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/TechnicalCommunicationpdf/TechnicalCommunicationUnit5.pdf'
                             }
                         ]
                     },
@@ -217,27 +218,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Introduction',
-                                url: "../../../NotesPdf/B.TECH3rdSem/COApdf/COAUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/COApdf/COAUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Arthimtic and Logic Unit',
-                                url: "../../../NotesPdf/B.TECH3rdSem/COApdf/COAUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/COApdf/COAUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Control Unit',
-                                url: "../../../NotesPdf/B.TECH3rdSem/COApdf/COAUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/COApdf/COAUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Memory',
-                                url: "../../../NotesPdf/B.TECH3rdSem/COApdf/COAUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/COApdf/COAUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Input/Output',
-                                url: "../../../NotesPdf/B.TECH3rdSem/COApdf/COAUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/COApdf/COAUnit5.pdf'
                             }
                         ]
                     },
@@ -247,27 +248,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Introduction and Hijacking & Defence',
-                                url: "../../../NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Confidentialty Policies',
-                                url: "../../../NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Secure Architecture Principles Isolation and Lease',
-                                url: "../../../NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Basic Cryptography',
-                                url: "../../../NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Internet Infrastructures',
-                                url: "../../../NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/CyberSecurityPdf/CyberSecurityUnit5.pdf'
                             }
                         ]
                     },
@@ -277,27 +278,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Introduction, Arrays & Linked Lists',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Stacks and Queues',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Searching',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Tree',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Graphs',
-                                url: "../../../NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH3rdSem/DataStructurePdf/DataStructureUnit5.pdf'
                             }
                         ]
                     }
@@ -312,27 +313,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Introduction',
-                                url: "../../../NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Concurrent Processes',
-                                url: "../../../NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'CPU Scheduling',
-                                url: "../../../NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Memory Management',
-                                url: "../../../NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'I/O Management and Disk Scheduling',
-                                url: "../../../NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OperatingSystemPdf/OperatingSystemUnit5.pdf'
                             }
                         ]
                     },
@@ -342,27 +343,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Basic Concepts and Automata Theory',
-                                url: "../../../NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Regular Expressions and Languages',
-                                url: "../../../NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Regular and Non-Regular Grammars',
-                                url: "../../../NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Push Down Automata and Properties of Context Free Languages',
-                                url: "../../../NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Turing Machines and Recursive Function Theory',
-                                url: "../../../NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/TAFLPdf/TAFLUnit5.pdf'
                             }
                         ]
                     },
@@ -372,22 +373,22 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Fundamental of Object-Oriented Programming',
-                                url: "../../../NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Inheritance and Pointers',
-                                url: "../../../NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Technical Presentation: Strategies an TechniquesConstructors, Destructors, Operator Overloading, Type Conversion, Virtual Functions, and Polymorphism',
-                                url: "../../../NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Exception Handling and Templates Programming',
-                                url: "../../../NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/OOPSWithJavaPdf/OOPSWithJavaUnit4.pdf'
                             }
                         ]
                     },
@@ -397,27 +398,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Introduction',
-                                url: "../../../NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Harmony in Myself',
-                                url: "../../../NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Harmony in Human-Human Relationship',
-                                url: "../../../NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Whole Exsistence and co-existence',
-                                url: "../../../NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Understanding of Harmony of Professional Ethics',
-                                url: "../../../NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/HumanValuePdf/HumanValueUnit5.pdf'
                             }
                         ]
                     },
@@ -427,27 +428,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Introduction and Basics',
-                                url: "../../../NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Conditionals and Loops',
-                                url: "../../../NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit2.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Functions, Strings and Python DS',
-                                url: "../../../NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit3.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Sieve of Eratosthenes',
-                                url: "../../../NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit4.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Iterators and Recurrsions',
-                                url: "../../../NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit5.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/PythonPdf/PythonUnit5.pdf'
                             }
                         ]
                     },
@@ -457,27 +458,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Partial Differential Equations',
-                                url: "../../../NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit1.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Applications of Partial Differential Equations',
-                                url: "../../../NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit2.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Stastical Techniques I',
-                                url: "../../../NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit3.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Stastical Techniques II',
-                                url: "../../../NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit4.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Stastical Techniques III',
-                                url: "../../../NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit5.pdf"
+                                notes: './public/NotesPdf/B.TECH4thSem/Math4Pdf/Maths4Unit5.pdf'
                             }
                         ]
                     }
@@ -491,23 +492,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Introduction & ER Modeling'
+                                title: 'Introduction & ER Modeling',
+                                notes: './public/NotesPdf/B.TECH5thSem/DBMS/DBMSUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Relational Model, Algebra & SQL'
+                                title: 'Relational Model, Algebra & SQL',
+                                notes: './public/NotesPdf/B.TECH5thSem/DBMS/DBMSUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Database Design, Functional Dependencies and Nomalization'
+                                title: 'Database Design, Functional Dependencies and Nomalization',
+                                notes: './public/NotesPdf/B.TECH5thSem/DBMS/DBMSUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Query Processing & Optimization'
+                                title: 'Query Processing & Optimization',
+                                notes: './public/NotesPdf/B.TECH5thSem/DBMS/DBMSUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Transaction, Concurrency & Security'
+                                title: 'Transaction, Concurrency & Security',
+                                notes: './public/NotesPdf/B.TECH5thSem/DBMS/DBMSUnit5.pdf'
                             }
                         ]
                     },
@@ -516,23 +522,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Wen and Internet Fundamentals'
+                                title: 'Wen and Internet Fundamentals',
+                                notes: './public/NotesPdf/B.TECH5thSem/WebTech/WebTechnologyUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'HTML Advance, CSS, XML Schema'
+                                title: 'HTML Advance, CSS, XML Schema',
+                                notes: './public/NotesPdf/B.TECH5thSem/WebTech/WebTechnologyUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'JAVASCRIPT, AJAX, Networking'
+                                title: 'JAVASCRIPT, AJAX, Networking',
+                                notes: './public/NotesPdf/B.TECH5thSem/WebTech/WebTechnologyUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Server ide Programming'
+                                title: 'Server Side Programming',
+                                notes: './public/NotesPdf/B.TECH5thSem/WebTech/WebTechnology        Unit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Integration and Application Development'
+                                title: 'Integration and Application Development',
+                                notes: './public/NotesPdf/B.TECH5thSem/WebTech/WebTechnologyUnit5.pdf'
                             }
                         ]
                     },
@@ -541,23 +552,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Fundamentals and Sorting'
+                                title: 'Fundamentals and Sorting',
+                                notes: './public/NotesPdf/B.TECH5thSem/DAA/DAAUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Advance Data Structures'
+                                title: 'Advance Data Structures',
+                                notes: './public/NotesPdf/B.TECH5thSem/DAA/DAAUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Divide and Conquer/Greedy'
+                                title: 'Divide and Conquer/Greedy',
+                                notes: './public/NotesPdf/B.TECH5thSem/DAA/DAAUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Dynamic Programming/Backtracking'
+                                title: 'Dynamic Programming/Backtracking',
+                                notes: './public/NotesPdf/B.TECH5thSem/DAA/DAAUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Selected Advance Topics'
+                                title: 'Selected Advance Topics',
+                                notes: './public/NotesPdf/B.TECH5thSem/DAA/DAAUnit5.pdf'
                             }
                         ]
                     },
@@ -566,23 +582,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Object Oriented Modelling'
+                                title: 'Object Oriented Modelling',
+                                notes: './public/NotesPdf/B.TECH5thSem/OppsWithCPP/OOPSWithCppUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Structures and Behaviral Modelling'
+                                title: 'Structures and Behaviral Modelling',
+                                notes: './public/NotesPdf/B.TECH5thSem/OppsWithCPP/OOPSWithCppUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Object Oriented Analysis & Design'
+                                title: 'Object Oriented Analysis & Design',
+                                notes: './public/NotesPdf/B.TECH5thSem/OppsWithCPP/OOPSWithCppUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'C++ Basics'
+                                title: 'C++ Basics',
+                                notes: './public/NotesPdf/B.TECH5thSem/OppsWithCPP/OOPSWithCppUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Classes,Inheritance & Polymorphism in c++'
+                                title: 'Classes,Inheritance & Polymorphism in c++',
+                                notes: './public/NotesPdf/B.TECH5thSem/OppsWithCPP/OOPSWithCppUnit5.pdf'
                             }
                         ]
                     },
@@ -591,23 +612,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Introduction'
+                                title: 'Introduction',
+                                notes: './public/NotesPdf/B.TECH5thSem/MachineLearning/MachineLearningUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Regression & SVM'
+                                title: 'Regression & SVM',
+                                notes: './public/NotesPdf/B.TECH5thSem/MachineLearning/MachineLearningUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Decision Tree & Instance-Based Learning'
+                                title: 'Decision Tree & Instance-Based Learning',
+                                notes: './public/NotesPdf/B.TECH5thSem/MachineLearning/MachineLearningUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Neural Networks and Deep Learning'
+                                title: 'Neural Networks and Deep Learning',
+                                notes: './public/NotesPdf/B.TECH5thSem/MachineLearning/MachineLearningUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Reinforcement Learning & Genetic Algorithim'
+                                title: 'Reinforcement Learning & Genetic Algorithim',
+                                notes: './public/NotesPdf/B.TECH5thSem/MachineLearning/MachineLearningUnit5.pdf'
                             }
                         ]
                     },
@@ -616,23 +642,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Introduction and Basic Structures'
+                                title: 'Introduction and Basic Structures',
+                                notes: './public/NotesPdf/B.TECH5thSem/COI/COIUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Union and State Excetive, Judiciary'
+                                title: 'Union and State Excetive, Judiciary',
+                                notes: './public/NotesPdf/B.TECH5thSem/COI/COIUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Indian Legal System'
+                                title: 'Indian Legal System',
+                                notes: './public/NotesPdf/B.TECH5thSem/COI/COIUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Elections, Emergency Provisions & Amendments'
+                                title: 'Elections, Emergency Provisions & Amendments',
+                                notes: './public/NotesPdf/B.TECH5thSem/COI/COIUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Buisiness Organizations & E-Governance'
+                                title: 'Buisiness Organizations & E-Governance',
+                                notes: './public/NotesPdf/B.TECH5thSem/COI/COIUnit5.pdf'
                             }
                         ]
                     }
@@ -646,23 +677,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Software Process & SRS'
+                                title: 'Software Process & SRS',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareEngineering/SoftwareEngineeringUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Design Methodologies'
+                                title: 'Design Methodologies',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareEngineering/SoftwareEngineeringUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Templementations and Coding Standards'
+                                title: 'Templementations and Coding Standards',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareEngineering/SoftwareEngineeringUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Testing Strategies & Quality Assurance'
+                                title: 'Testing Strategies & Quality Assurance',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareEngineering/SoftwareEngineeringUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Maintainance & Project Management'
+                                title: 'Maintainance & Project Management',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareEngineering/SoftwareEngineeringUnit5.pdf'
                             }
                         ]
                     },
@@ -671,23 +707,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Lexical Analysis & Parsing'
+                                title: 'Lexical Analysis & Parsing',
+                                notes: './public/NotesPdf/B.TECH6thSem/CompilerDesign/CompilerDesignUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Syntax-Directed Translation'
+                                title: 'Syntax-Directed Translation',
+                                notes: './public/NotesPdf/B.TECH6thSem/CompilerDesign/CompilerDesignUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Semanic Analysis, Intermediate Code'
+                                title: 'Semanic Analysis, Intermediate Code',
+                                notes: './public/NotesPdf/B.TECH6thSem/CompilerDesign/CompilerDesignUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Code Optimization, Symbol Tables'
+                                title: 'Code Optimization, Symbol Tables',
+                                notes: './public/NotesPdf/B.TECH6thSem/CompilerDesign/CompilerDesignUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Code Generation Runtime Environment'
+                                title: 'Code Generation Runtime Environment',
+                                notes: './public/NotesPdf/B.TECH6thSem/CompilerDesign/CompilerDesignUnit5.pdf'
                             }
                         ]
                     },
@@ -696,23 +737,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Phyical & Data Link Layer'
+                                title: 'Phyical & Data Link Layer',
+                                notes: './public/NotesPdf/B.TECH6thSem/ComputerNetworks/ComputerNetworkUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Network Layer'
+                                title: 'Network Layer',
+                                notes: './public/NotesPdf/B.TECH6thSem/ComputerNetworks/ComputerNetworkUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Data Link Layer & Switching'
+                                title: 'Data Link Layer & Switching',
+                                notes: './public/NotesPdf/B.TECH6thSem/ComputerNetworks/ComputerNetworkUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Transport Layer'
+                                title: 'Transport Layer',
+                                notes: './public/NotesPdf/B.TECH6thSem/ComputerNetworks/ComputerNetworkUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Application Layer'
+                                title: 'Application Layer',
+                                notes: './public/NotesPdf/B.TECH6thSem/ComputerNetworks/ComputerNetworkUnit5.pdf'
                             }
                         ]
                     },
@@ -721,23 +767,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Foundation & Loseless Compression'
+                                title: 'Foundation & Loseless Compression',
+                                notes: './public/NotesPdf/B.TECH6thSem/DataCompression/DataCompressionUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Arthimetic Coding & Dictionary Techniques'
+                                title: 'Arthimetic Coding & Dictionary Techniques',
+                                notes: './public/NotesPdf/B.TECH6thSem/DataCompression/DataCompressionUnit2.pdf' 
                             },
                             {
                                 number: 3,
-                                title: 'Predictive Coding for Images'
+                                title: 'Predictive Coding for Images',
+                                notes: './public/NotesPdf/B.TECH6thSem/DataCompression/DataCompressionUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Quantization Techniques'
+                                title: 'Quantization Techniques',
+                                notes: './public/NotesPdf/B.TECH6thSem/DataCompression/DataCompressionUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Advanced Compression & Applications'
+                                title: 'Advanced Compression & Applications',
+                                notes: './public/NotesPdf/B.TECH6thSem/DataCompression/DataCompressionUnit5.pdf'
                             }
                         ]
                     },
@@ -746,23 +797,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Project Evaluation and planning'
+                                title: 'Project Evaluation and planning',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareProjectManagement/SPMUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Software Life Cycle and Effort Estimation'
+                                title: 'Software Life Cycle and Effort Estimation',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareProjectManagement/SPMUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Activity Planning and Risk Management'
+                                title: 'Activity Planning and Risk Management',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareProjectManagement/SPMUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Project Monitoring and Controlling'
+                                title: 'Project Monitoring and Controlling',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareProjectManagement/SPMUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Staffing, Leadership, & Communication'
+                                title: 'Staffing, Leadership, & Communication',
+                                notes: './public/NotesPdf/B.TECH6thSem/SoftwareProjectManagement/SPMUnit5.pdf'
                             }
                         ]
                     },
@@ -771,23 +827,28 @@ export const syllabus = [
                         units: [
                             {
                                 number: 1,
-                                title: 'Society,State and Polity in Inida'
+                                title: 'Society,State and Polity in Inida',
+                                notes: './public/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit1.pdf'
                             },
                             {
                                 number: 2,
-                                title: 'Indian Literature, Culture & Tradition'
+                                title: 'Indian Literature, Culture & Tradition',
+                                notes: './public/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit2.pdf'
                             },
                             {
                                 number: 3,
-                                title: 'Religion, Philosophy and Practices'
+                                title: 'Religion, Philosophy and Practices',
+                                notes: './public/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit3.pdf'
                             },
                             {
                                 number: 4,
-                                title: 'Science Management & Indian Knwoldge System'
+                                title: 'Science Management & Indian Knwoldge System',
+                                notes: './public/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit4.pdf'
                             },
                             {
                                 number: 5,
-                                title: 'Cultural Heritage & Performing Arts'
+                                title: 'Cultural Heritage & Performing Arts',
+                                notes: './public/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit5.pdf'   
                             }
                         ]
                     },

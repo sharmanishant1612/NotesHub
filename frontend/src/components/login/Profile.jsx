@@ -87,7 +87,7 @@ export default function Profile() {
     setMessage("");
 
     await axios
-      .delete("http://localhost:3000/api/user/delete", {
+      .delete("https://noteshub-hbf2.onrender.com/api/user/delete", {
         headers: {
           Authorization: `Bearer ${getToken()}`,
         },
