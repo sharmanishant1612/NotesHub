@@ -16,6 +16,14 @@ import SignupPage from './components/login/Signup.jsx'
 import Profile from './components/login/Profile.jsx'
 import Authprovider from './components/authProvider/AuthProvider.jsx'
 import Protectroute from './components/ProtectRoute/ProtectRoute.jsx'
+import ReactBlog from './components/blog/Reactjs.jsx'
+import DsaBlog from './components/blog/DsaBlog.jsx'
+import ResumeBlog from './components/blog/TechnicalResume.jsx'
+import ComputerFundamentalsBlog from './components/blog/CsFundamentals.jsx'
+import OopsJavaBlog from './components/blog/OopswithJava.jsx'
+import FirstWebsiteBlog from './components/blog/HowToCreateWebsite.jsx'
+import SoftwareEngineeringBlog from './components/blog/SoftwareEngineeinr.jsx'
+import GitGithubBlog from './components/blog/Github.jsx'
 
 const router = createBrowserRouter([
   {
@@ -65,6 +73,38 @@ const router = createBrowserRouter([
             <Profile/>
           </Protectroute>
         )
+      },
+      {
+        path: "Blog/React-Blog",
+        element: <ReactBlog/>
+      },
+      {
+        path: "*",
+        element: <DsaBlog/>
+      },
+      {
+        path: "Blog/Resume-Blog",
+        element: <ResumeBlog/>
+      },
+      {
+        path: "Blog/CSFundamntal_Blog",
+        element: <ComputerFundamentalsBlog/>
+      },
+      {
+        path: "Blog/OOPS-Blog",
+        element: <OopsJavaBlog/>
+      },
+      {
+        path: "Blog/Frontend-Blog",
+        element: <FirstWebsiteBlog/>
+      },
+      {
+        path: "Blog/SE-Blog",
+        element: <SoftwareEngineeringBlog/>
+      },
+      {
+        path: "Blog/Git-Blog",
+        element: <GitGithubBlog/>
       }
     ]
   }

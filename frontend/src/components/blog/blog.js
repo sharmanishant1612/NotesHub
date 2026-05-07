@@ -1,6 +1,6 @@
 export const blogs = [
 
-	{ id:1, title:'Why You Should Learn React as a B.Tech Student', desc:'Unlock top tech careers by learning React—fast, in-demand, and perfect for real-world projects', date:'2025-06-15', time:'7 min', tech:['Engineering','React','Programming'], img:'/react.jpeg', slug:'React-Blog', course:'B.Tech' },
+	{ id:1, title:'Why You Should Learn React as a B.Tech Student', desc:'Unlock top tech careers by learning React—fast, in-demand, and perfect for real-world projects', date:'2025-06-15', time:'7 min', tech:['Engineering','React','Programming'], img:'/react.jpeg', slug:'React-Blog', course:'B.Tech'},
 
     { id:2, title:'Solving LeetCode: Tips to Crack DSA Interviews', desc:'Boost your coding skills with tips to master LeetCode and ace DSA interviews', date:'2025-07-02', time:'5 min', tech:['DSA','LeetCode','Programming'], img:'/dsa.jpeg', slug:'DSA-Blog', course:'B.Tech' },
     
