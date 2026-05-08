@@ -1,4 +1,4 @@
-import notes from "../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit1.pdf";
+// import notes from "../../../public/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit1.pdf";
 export const syllabus = [
     {
         course: 'B.Tech',
@@ -50,11 +50,11 @@ export const syllabus = [
                     {
                         name: 'Environment and Ecology',
                         units: [
-                            { number: 1, title: 'Ecosystem', notes: '/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit1.pdf' },
-                            { number: 2, title: 'Natural Resources', notes: '/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit2.pdf' },
-                            { number: 3, title: 'Biodiversity', notes: '/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit3.pdf' },
-                            { number: 4, title: 'Environmental Pollution', notes: '/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit4.pdf' },
-                            { number: 5, title: 'Sustainable Development', notes: '/NotesPdf/B.TECH1stSem/EnvironmentAndEcology/EVSUnit5.pdf' }
+                            { number: 1, title: 'Ecosystem', notes: '/NotesPdf/B.TECH1stSem/EnvironmentandEcology/EVSUnit1.pdf' },
+                            { number: 2, title: 'Natural Resources', notes: '/NotesPdf/B.TECH1stSem/EnvironmentandEcology/EVSUnit2.pdf' },
+                            { number: 3, title: 'Biodiversity', notes: '/NotesPdf/B.TECH1stSem/EnvironmentandEcology/EVSUnit3.pdf' },
+                            { number: 4, title: 'Environmental Pollution', notes: '/NotesPdf/B.TECH1stSem/EnvironmentandEcology/EVSUnit4.pdf' },
+                            { number: 5, title: 'Sustainable Development', notes: '/NotesPdf/B.TECH1stSem/EnvironmentandEcology/EVSUnit5.pdf' }
                         ]
                     }
                 ]
@@ -87,21 +87,21 @@ export const syllabus = [
                     {
                         name: 'Fundamentals of Electronics Engineering',
                         units: [
-                            { number: 1, title: 'Semiconductor Physics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit1.pdf' },
-                            { number: 2, title: 'Diodes and Applications', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit2.pdf' },
-                            { number: 3, title: 'Transistors', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit3.pdf' },
-                            { number: 4, title: 'Amplifiers', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit4.pdf' },
-                            { number: 5, title: 'Digital Electronics Basics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsOfElectronicsEngineering/ElectronicsUnit5.pdf' }
+                            { number: 1, title: 'Semiconductor Physics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofElectronicsEngineering/ElectronicsUnit1.pdf' },
+                            { number: 2, title: 'Diodes and Applications', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofElectronicsEngineering/ElectronicsUnit2.pdf' },
+                            { number: 3, title: 'Transistors', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofElectronicsEngineering/ElectronicsUnit3.pdf' },
+                            { number: 4, title: 'Amplifiers', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofElectronicsEngineering/ElectronicsUnit4.pdf' },
+                            { number: 5, title: 'Digital Electronics Basics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofElectronicsEngineering/ElectronicsUnit5.pdf' }
                         ]
                     },
                     {
                         name: 'Fundamentals of Mechanical Engineering',
                         units: [
-                            { number: 1, title: 'Thermodynamics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit1.pdf' },
-                            { number: 2, title: 'IC Engines', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit2.pdf' },
-                            { number: 3, title: 'Refrigeration and AC', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit3.pdf' },
-                            { number: 4, title: 'Manufacturing Processes', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit4.pdf' },
-                            { number: 5, title: 'Engineering Mechanics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechnicalEngineering/MechanicsUnit5.pdf' }
+                            { number: 1, title: 'Thermodynamics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechanicalEngineering/MechanicsUnit1.pdf' },
+                            { number: 2, title: 'IC Engines', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechanicalEngineering/MechanicsUnit2.pdf' },
+                            { number: 3, title: 'Refrigeration and AC', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechanicalEngineering/MechanicsUnit3.pdf' },
+                            { number: 4, title: 'Manufacturing Processes', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechanicalEngineering/MechanicsUnit4.pdf' },
+                            { number: 5, title: 'Engineering Mechanics', notes: '/NotesPdf/B.TECH2ndSem/FundamentalsofMechanicalEngineering/MechanicsUnit5.pdf' }
                         ]
                     },
                     
@@ -828,27 +828,27 @@ export const syllabus = [
                             {
                                 number: 1,
                                 title: 'Society,State and Polity in Inida',
-                                notes: '/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit1.pdf'
+                                notes: '/NotesPdf/B.TECH6thSem/EssenceofIndianTraditionalKnowledge/EITKUnit1.pdf'
                             },
                             {
                                 number: 2,
                                 title: 'Indian Literature, Culture & Tradition',
-                                notes: '/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit2.pdf'
+                                notes: '/NotesPdf/B.TECH6thSem/EssenceofIndianTraditionalKnowledge/EITKUnit2.pdf'
                             },
                             {
                                 number: 3,
                                 title: 'Religion, Philosophy and Practices',
-                                notes: '/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit3.pdf'
+                                notes: '/NotesPdf/B.TECH6thSem/EssenceofIndianTraditionalKnowledge/EITKUnit3.pdf'
                             },
                             {
                                 number: 4,
                                 title: 'Science Management & Indian Knwoldge System',
-                                notes: '/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit4.pdf'
+                                notes: '/NotesPdf/B.TECH6thSem/EssenceofIndianTraditionalKnowledge/EITKUnit4.pdf'
                             },
                             {
                                 number: 5,
                                 title: 'Cultural Heritage & Performing Arts',
-                                notes: '/NotesPdf/B.TECH6thSem/EssenceOfIndianTraditionalKnowledge/EITKUnit5.pdf'   
+                                notes: '/NotesPdf/B.TECH6thSem/EssenceofIndianTraditionalKnowledge/EITKUnit5.pdf'   
                             }
                         ]
                     },
